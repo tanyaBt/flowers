@@ -1,0 +1,538 @@
+/* --------------- General rules --------------- */
+* {
+	box-sizing: border-box;
+}
+
+.container-wrap {
+	width: 1200px;
+	margin: 0 auto;
+	background-color: white;
+	overflow: hidden;
+}
+
+
+/* --------------- Header --------------- */
+header {
+	width: 100%;
+	height: 450px;
+	position: relative; 
+	overflow: hidden;
+}
+
+/* --------------- Top main navigation --------------- */
+.main-menu {
+	width: 100%;
+	text-align: center;
+	font-size: 0;
+}
+
+.main-menu a {
+	font-size: 18px;
+	font-family: Raleway, sans-serif;
+	color: #d7c9bc;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: 30px;
+	padding-bottom: 0;
+	display: inline-block;
+}
+
+.main-menu a:hover {
+	color: #59524c;
+	outline: 1px solid #d7c9bc;
+}
+
+nav a:first-child {
+	margin-right: 30px;
+}
+
+nav a:nth-child(3) {
+	margin-right: 30px;
+}
+
+nav a:nth-child(2) {
+	margin-right: 215px;
+}
+
+/* --------------- Brand identity section --------------- */
+.picture-wrap {
+	width: 100%;
+	height: 382px;
+	margin-top: 20px;
+	background-image: url("../images/border-gap.png"),
+					  url("../images/brand-identity.jpg");
+	background-size: cover;
+    background-position: center;
+}
+
+.logo {
+	position: relative;
+	margin: 0 auto;
+	top: -25px;
+	font-size: 0px;
+}
+
+#logo-name {
+	font-size: 48px;
+	font-family: Raleway, sans-serif;
+	color: #d7c9bc;
+	text-transform: lowercase;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#logo-studio {
+	font-size: 24px;
+	font-family: Raleway, sans-serif;
+	color: white;
+	text-transform: lowercase;
+	font-weight: bold;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.slogan {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.slogan-text p {
+	font-size: 72px;
+	width: 600px;
+	font-family: Raleway, sans-serif;
+	color: white;
+	text-transform: lowercase;
+	font-weight: 500;
+	text-align: center;
+	margin-left: 300px;
+	margin-top: 1.3em;
+	padding: 0;
+	position: absolute;
+	z-index: 20;
+}
+
+.slogan-bgr {
+	background-color: #d7c9bc;
+	height: 60px;
+	width: 595px;
+	z-index: 10;
+	margin-left: 305px;
+	margin-top: 4.8em;
+	position: absolute;
+}
+
+/* --------------- Bottom gallery navigation --------------- */
+.gallery-nav {
+	display: inline-block;
+	width: 20%;
+	height: 20px;
+	overflow: hidden;
+	position: absolute;
+	margin-top: 260px;
+	margin-left: 523px;
+}
+
+.dot {
+	width: 15px;
+	height: 15px;
+	background-color: white;
+	border-radius: 50%;
+	margin-right: 20px;
+	float: left;
+}
+
+.dot:last-child {
+	margin-right: 0;
+}
+
+.dot:hover {
+	background-color: #d7c9bc;
+}
+/* --------------- Main content of the page --------------- */
+
+/* --------------- Offer general section --------------- */
+.offer-section {
+	width: 100%;
+	height: 660px;
+}
+
+.offer-section .container-wrap {
+	padding-top: 68px;
+	position: relative;
+	overflow: visible;
+}
+/* --------------- General text rules --------------- */
+h1 {
+	font-size: 48px;
+	font-family: Raleway, sans-serif;
+	color: #59524c;
+	font-weight: 600;
+	text-transform: lowercase;
+	text-decoration: none;
+	text-align: right;
+}
+
+h2 {
+	font-size: 16px;
+	font-family: Raleway, sans-serif;
+	color: #dfd4c9;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: left;
+}
+
+p {
+	font-size: 14px;
+	font-family: Raleway, sans-serif;
+	color: #59524c;
+	font-weight: 500;
+	text-align: left;
+	line-height: 1.2;
+	margin-left: 200px;
+}
+
+/* --------------- Section header --------------- */
+.lable {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+
+.title {
+	width: 192px;
+	height: 62px;
+	margin-left: 200px;
+	margin-right: 10px;
+	float: left;
+}
+
+.bar {
+	width: 192px;
+	height: 16px;
+	margin-top: 12px;
+	background-color: #d7c9bc;
+	float: right; 
+}
+
+.about .bar {
+	background-color: white;
+}
+
+.lists {
+	overflow: hidden;
+	margin-top: 55px;
+	margin-bottom: 50px;
+}
+
+.sub-title {
+	margin-left: 200px;
+	margin-bottom: 15px;
+}
+.experience .sub-title {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+li p {
+	width: 192px;
+	display: inline-block;
+	padding: 20px 0 2px 0;
+	line-height: 1.2;
+	border-color: #d7c9bc;
+	border-style: solid;
+	border-radius: 0; 
+ 	border-width: 0 0 2px 0;
+   	border-style: none none solid none;
+   	box-shadow: none;
+}
+
+.article p {
+	width: 495px; 
+}
+
+.longer.article p {
+	width: 596px;
+}
+
+.lists-small-article-wrap {
+	margin-bottom: 60px;
+}
+
+.activity {
+	float: left;
+	margin-right: 15px;
+}
+
+.experience {
+	float: left;
+}
+
+.experience p {
+	margin-left: 0;
+}
+
+/* --------------- Side picture --------------- */
+
+.image {
+	float: right;
+	width: 287px;
+	position: absolute;
+	top: 380px;
+	left: 710px;	
+}
+
+.pic img {
+	height: 393px;
+	width: 287px;
+	position: absolute;
+	outline: 5px solid white;
+	outline-offset: -20px;
+	z-index: 10;
+}
+
+.border {
+	border: 10px solid #d7c9bc;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	z-index: 1;
+	position: absolute;
+	left: -50px;
+	top: -40px;
+}
+ .figcap p {
+ 	margin-left: 0;
+ 	margin-bottom: 5px;
+ 	
+ }
+
+ .figcap {
+ 	position: relative;
+ 	z-index: 30;
+ }
+
+/* --------------- Description section --------------- */
+.about-section {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+	
+.about-section .container-wrap {
+	height: 675px;
+	background-image: url("../images/about-bground.png");
+	overflow: hidden;
+	position: relative;
+	padding-top: 68px;
+}
+
+.about p {
+	margin-bottom: 1.5em;
+}
+
+/* --------------- Contact section --------------- */
+.contact-section {
+	width: 100%;
+	height: 505px;
+	overflow: hidden;
+}
+
+.contact-section .container-wrap {
+	padding-top: 68px;
+	position: relative;
+}
+
+/* --------------- Contact form--------------- */
+
+.contact-form {
+	display: inline-block;
+	margin-right: 120px;
+	overflow: hidden;
+}
+
+.contact-form input[type=text] {
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	color: #59524c;
+	font-weight: 500;
+	text-transform: lowercase;
+	text-decoration: none;
+	text-align: left;	
+}
+
+input::placeholder {
+	color: #59524c;
+	background-color: transparent;
+} 
+
+.contact-form input[type=text] {
+    width: 394px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #d7c9bc;
+    line-height: 1.8em;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.contact-subsection {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.contact-form input[type=text]:focus {
+	outline: none;
+}
+
+/* --------------- Contact button --------------- */
+ .send-button {
+ 	margin-top: 30px;
+	float: right;
+}
+
+.send-button input[type=button]  {
+	background-color: #d7c9bc;
+    border: none;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+  	font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: lowercase;
+	color: #59524c;
+	text-decoration: none;
+	line-height: 1;
+	width: 192px;
+	height: 25px;
+}
+
+.contact-subsection, 
+.contact-image {
+	float: left;
+}
+
+.send-button input[type=button]:hover {
+	background-color: #59524c;
+}
+
+.send-button input[value="send"]:hover {
+	color: white;
+}
+
+.send-button input[value="send"]:focus {
+	outline: none;
+}
+
+.contact-form input {
+	border-radius: 0; 
+ 	border-color: white;
+   	border-width: 0 0 2px 0;
+   	border-style: none none solid none;
+   	box-shadow: none;
+}
+
+/* --------------- Contact section picture --------------- */
+
+.contact-image {
+	width: 292px;
+	position: relative;
+	z-index: 10;
+}
+
+.contact-pic img {
+	height: 262px;
+	width: 292px;
+	position: absolute;
+	outline: 5px solid white;
+	outline-offset: -20px;
+	z-index: 10;
+}
+
+.contact-border {
+	border: 10px solid #d7c9bc;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	z-index: 1;
+	position: absolute;
+	left: -50px;
+	top: 200px;
+}
+
+ .contact-figcap p {
+ 	margin-left: 0;
+ }
+
+ .contact-figcap {
+ 	position: relative;
+ 	padding-top: 267px;
+ 	z-index: 30;
+ }
+
+ .footnote p {
+	margin-left: 0;
+	margin-top: 15px;
+}
+
+.credits p {
+	float: left;
+}
+
+.address p {
+	margin-right: 250px;
+	float: right;
+}
+
+.footnote span {
+	text-transform: uppercase;
+}
+
+/* --------------- Footer --------------- */
+footer {
+	width: 100%;
+	height: 95px;
+	overflow: hidden;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+	
+footer .container-wrap {
+	overflow: hidden;
+	position: relative;
+	height: 95px;
+	background-image: url("../images/footer-background.jpg");
+	margin-top: 10px;
+}
+
+.social-media {
+	float: right;
+	margin-top: 15px;
+}
+
+.facebook,
+.twitter {
+	float: left;
+	margin-right: 45px;
+}
+
+.pinterest {
+	float: left;
+	margin-right: 100px;
+}
+
+.footer-border {
+	width: 1160px;
+	height: 90px;
+	border: 10px solid white;
+	position: absolute;
+	margin-left: 20px;
+	top: -25px;
+}
